@@ -1,6 +1,6 @@
 const captainModel = require('../models/caption.model');
 const captainService = require('../Services//captain.sevice');
-const blackListTokenModel = require('../models/BlackListToken');
+const blackListTokenModel= require('../models/blacklistToken.model')
 const { validationResult } = require('express-validator');
 
 
